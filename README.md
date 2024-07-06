@@ -1,11 +1,8 @@
 # Project Overview
 
-This project demonstrates the development and testing of a fictional e-commerce website's purchasing process using Cypress for end-to-end testing.
- The focus is on verifying the functionality of user registration, login, browsing products, adding items to the cart, and completing the purchase.
-
 This project demonstrates the testing of multi-step form using Cypress for end-to-end testing. 
-The focus is on verifying the functionality of filling out and submitting the form. Although the project likely includes multiple user stories, 
-we concentrate specifically on the functionality of the multi-step form and its end-to-end testing.
+The focus is on verifying the functionality of filling out and submitting the form. Although the project likely includes multiple user stories IN REAL LIFE 
+I concentrate specifically on the functionality of the multi-step form and its end-to-end testing.
 
 ## User Story
 
