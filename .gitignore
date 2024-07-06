@@ -6,3 +6,7 @@ node_modules/
 
 # Ignore environment configuration files
 .env
+
+# Ignore Cypress downloads and screenshots
+cypress/downloads/
+cypress/screenshots/
