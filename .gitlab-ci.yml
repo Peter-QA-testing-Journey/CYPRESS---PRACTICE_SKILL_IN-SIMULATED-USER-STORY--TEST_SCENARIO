@@ -1,0 +1,8 @@
+stages:
+  - npm
+
+npm_install:
+  image:  node:20-alpine
+  stage: npm
+  script:
+    - time npm ci
