@@ -1,3 +1,5 @@
+[![pipeline status](https://gitlab.com/peterbursa1/cypress/badges/main/pipeline.svg)](https://gitlab.com/peterbursa1/cypress/-/commits/main)
+
 # Project Overview
 
 This project demonstrates the testing of multi-step form using Cypress for end-to-end testing. 
@@ -62,5 +64,3 @@ This project is configured to run Cypress tests automatically using GitHub Actio
     ```
 
 5. In the Cypress test runner, click on the `multi-step-form.spec.js` to run the test.
-
-6. ---
