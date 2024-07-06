@@ -62,3 +62,5 @@ This project is configured to run Cypress tests automatically using GitHub Actio
     ```
 
 5. In the Cypress test runner, click on the `multi-step-form.spec.js` to run the test.
+
+6. ---
