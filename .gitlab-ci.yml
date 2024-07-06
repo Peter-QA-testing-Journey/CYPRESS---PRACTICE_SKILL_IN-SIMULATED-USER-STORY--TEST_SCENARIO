@@ -1,8 +1,15 @@
 stages:
   - npm
+  - test
 
 npm_install:
   image:  node:20-alpine
   stage: npm
   script:
     - time npm ci
+
+test_cypress
+  image: node:20-alpine
+  stage: test
+  script:  
+    - time npx cypress open
