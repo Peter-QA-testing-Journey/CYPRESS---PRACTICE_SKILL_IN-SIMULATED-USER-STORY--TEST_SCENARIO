@@ -6,5 +6,6 @@ test_cypress:
   image: cypress/browsers:latest
   stage: test
   script:  
+    - npm ci
     - npx cypress install
     - npx cypress run -b chrome
