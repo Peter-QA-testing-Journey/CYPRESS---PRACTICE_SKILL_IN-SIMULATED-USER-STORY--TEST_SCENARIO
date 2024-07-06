@@ -8,8 +8,8 @@ npm_install:
   script:
     - time npm ci
 
-test_cypress
+test_cypress:
   image: node:20-alpine
   stage: test
   script:  
-    - time npx cypress open
+    - time npx cypress run --browser chrome
