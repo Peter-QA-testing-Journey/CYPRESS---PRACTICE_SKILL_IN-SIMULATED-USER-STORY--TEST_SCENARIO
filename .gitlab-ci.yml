@@ -1,15 +1,13 @@
 stages:
-  - npm
   - test
-
-npm_install:
-  image:  node:20-alpine
-  stage: npm
-  script:
-    - time npm ci
 
 test_cypress:
   image: node:20-alpine
   stage: test
+  environment:
+    ENV DISPLAY: ":99"
+    ENV XVFB_ARGS: "-screen 0 1280x1024x24"
   script:  
+    - apk update && apk add --no-cache xvfb gtk+3.0 dbus ttf-freefont font-noto msttcorefonts-installer chromium nss freetype harfbuzz ca-certificates bash
+    - update-ms-fonts && fc-cache -f
     - time npx cypress run --browser chrome
