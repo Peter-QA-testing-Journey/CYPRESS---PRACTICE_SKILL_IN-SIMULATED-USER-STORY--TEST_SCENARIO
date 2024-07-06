@@ -16,5 +16,5 @@ test_postman:
   before_script:
     - curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
   script:
-    - postman login --with-api-key $POSTMAN_API_KEY
+    - postman login --with-api-key ${POSTMAN_API_KEY}
     - postman collection run "31067501-b4afb52e-a826-445f-89cd-00f631953da9"
