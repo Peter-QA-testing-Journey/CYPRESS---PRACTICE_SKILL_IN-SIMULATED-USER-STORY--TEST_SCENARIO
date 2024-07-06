@@ -11,4 +11,5 @@ test_cypress:
     - apk update && apk add --no-cache xvfb gtk+3.0 dbus ttf-freefont font-noto msttcorefonts-installer chromium nss freetype harfbuzz ca-certificates bash
     - update-ms-fonts && fc-cache -f
     - time npm ci
-    - time npx cypress run --browser chrome
+    - time npm install cypress -g
+    - time cypress run --browser chrome
