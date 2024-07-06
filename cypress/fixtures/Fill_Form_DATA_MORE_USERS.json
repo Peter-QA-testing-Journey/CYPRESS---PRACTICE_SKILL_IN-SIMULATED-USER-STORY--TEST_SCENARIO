@@ -1,0 +1,20 @@
+[
+    {
+       "name":     "Peter Bursa",
+       "email":    "peter@email.com",
+       "date":     "2023-09-26",  
+       "message":  "Hello I would like to order SELENIUM, thank you"
+    },
+    {
+        "name":     "Adam Padam",
+        "email":    "adam@email.com",
+        "date":     "2023-09-20",  
+        "message":  "How are you today?"
+    },
+    {
+        "name":     "Juraj Sam",
+        "email":    "juraj@email.com",
+        "date":     "2023-10-22",  
+        "message":  "Hello world!"
+    }    
+    ]
