@@ -3,8 +3,11 @@
 This project demonstrates the development and testing of a fictional e-commerce website's purchasing process using Cypress for end-to-end testing.
  The focus is on verifying the functionality of user registration, login, browsing products, adding items to the cart, and completing the purchase.
 
+This project demonstrates the testing of multi-step form using Cypress for end-to-end testing. 
+The focus is on verifying the functionality of filling out and submitting the form. Although the project likely includes multiple user stories, 
+we concentrate specifically on the functionality of the multi-step form and its end-to-end testing.
 
-## User Stories
+## User Story
 
 ### Filling FORM Multi-Step 
 - **Description:** As a user, I want to fill out a multi-step form on the website so that I can successfully submit my details.
@@ -15,10 +18,10 @@ This project demonstrates the development and testing of a fictional e-commerce 
 
 ## Tasks and Test Cases
 
-### Task: End-to-End Testovanie Multi-Step Formulára
+### Task: End-to-End Testing Multi-Step FORM
 - **Detailed steps and test case validation:** [Link to Test Case](./cypress/integration/multi-step-form.spec.js)
 
-### Bug Report
+### FICTIONAL Bug Report
 - **Documentation of a discovered bug and its impact on the system:** [Bug Report View](./BUG_REPORT.md)
 
 ## Cypress Test Code
