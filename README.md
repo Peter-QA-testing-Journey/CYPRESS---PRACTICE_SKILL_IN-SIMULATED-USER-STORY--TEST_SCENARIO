@@ -5,7 +5,7 @@
 
 # Project Overview
 
-This project demonstrates the testing of multi-step form using Cypress for end-to-end testing. 
+This project demonstrates the testing of multi-step form using Cypress for end-to-end testing IN SIMULATED USER STORY FOR THAT.
 The focus is on verifying the functionality of filling out and submitting the form. Although the project likely includes multiple user stories IN REAL LIFE 
 I concentrate specifically on the functionality of the multi-step form and its end-to-end testing.
 
