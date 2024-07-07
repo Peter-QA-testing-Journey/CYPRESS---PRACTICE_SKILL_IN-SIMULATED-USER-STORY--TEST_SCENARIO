@@ -1,4 +1,8 @@
-[![pipeline status](https://gitlab.com/peterbursa1/cypress/badges/main/pipeline.svg)](https://gitlab.com/peterbursa1/cypress/-/commits/main)
+
+![GitHub Actions](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/workflows/Cypress%20Tests/badge.svg)
+
+
+![pipeline status](https://gitlab.com/peterbursa1/cypress/badges/main/pipeline.svg)](https://gitlab.com/peterbursa1/cypress/-/commits/main)
 
 # Project Overview
 
