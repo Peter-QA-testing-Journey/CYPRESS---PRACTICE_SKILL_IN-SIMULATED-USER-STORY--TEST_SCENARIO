@@ -1,12 +1,22 @@
-# https://github.com/cypress-io/cypress-docker-images/tree/master/browsers
+# Define  stages for the CI pipeline. Here, I have only one stage: 'test'.
 stages:
   - test
 
+# Define a job named 'test_cypress' within the 'test' stage.
 test_cypress:
+  # Use a pre-built Docker image with Cypress and browsers installed.
+  # I found this about Cypress Docker images, using source https://github.com/cypress-io/cypress-docker-images/tree/master/browsers
   image: cypress/browsers:latest
   stage: test
-  script:  
+  
+  # List of shell commands to run in the job.
+  script:
+    # Install the project dependencies defined in the package-lock.json file.
     - npm ci
+    
+    # Install Cypress.
     - npx cypress install
+    
+    # Run Cypress tests in the Chrome browser.
     - npx cypress run -b chrome
 
