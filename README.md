@@ -1,6 +1,6 @@
-![GitHub Actions](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/workflows/Cypress%20Tests/badge.svg)
+![GitHub Actions -PIPELINE](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/workflows/Cypress%20Tests/badge.svg)
 
-[PIPELINE RESULTS_OF_TEST_CYPRESS](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/PIPELINE_RESULTS_OF_TEST_CYPRESS.pdf)
+![GitLab -PIPELINE RESULTS_OF_TEST_CYPRESS](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/PIPELINE_RESULTS_OF_TEST_CYPRESS.pdf)
 
 # Project Overview
 
