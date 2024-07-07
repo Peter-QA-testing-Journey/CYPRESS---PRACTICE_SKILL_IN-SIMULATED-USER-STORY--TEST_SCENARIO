@@ -1,5 +1,5 @@
 ![GitHub Actions -PIPELINE](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/workflows/Cypress%20Tests/badge.svg)
-[RESULTS FROM PIPELINE GITHUB SCREENSHOTS](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/GITHUB%20ACTIONS%20-%20GITHUB%20RESULTS%20OF%20TEST.pdf)
+[RESULTS FROM PIPELINE GITHUB](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/actions/runs/9828513956/job/27132504324)
 
 
 
