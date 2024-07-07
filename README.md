@@ -1,8 +1,5 @@
-
-![GitHub Actions](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/workflows/Cypress%20Tests/badge.svg)
-
-
-![pipeline status](https://gitlab.com/peterbursa1/cypress/badges/main/pipeline.svg)](https://gitlab.com/peterbursa1/cypress/-/commits/main)
+[![pipeline status](https://gitlab.com/peterbursa1/cypress/badges/main/pipeline.svg)](https://gitlab.com/peterbursa1/cypress/-/commits/main)
+[PIPELINE RESULTS_OF_TEST_CYPRESS](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/PIPELINE_RESULTS_OF_TEST_CYPRESS.pdf)
 
 # Project Overview
 
@@ -19,27 +16,34 @@ I concentrate specifically on the functionality of the multi-step form and its e
   - The system verifies the correctness of the entered data and allows the user to proceed to the next step.
   - Upon form submission, the system displays a confirmation of successful submission.
 
-## Tasks and Test Cases
-
-### Task: End-to-End Testing Multi-Step FORM
-- **Detailed steps and test case validation:** [Link to Test Case](./cypress/integration/multi-step-form.spec.js)
-
-### FICTIONAL Bug Report
-- **Documentation of a discovered bug and its impact on the system:** [Bug Report View](./BUG_REPORT.md)
 
 ## Cypress Test Code
 
-- **View the test case for the multi-step form:** [Test Case Code](./cypress/integration/multi-step-form.spec.js)
+- **View the CYPRESS TEST SCENARIO WRITTEN IN VISUAL STUDIO CODE for the multi-step form:**
 
+  [STRUCTURE OF CYPRESS FILES](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/WHOLE%20STRUCTURE.png)
+
+  [MULTI-STEP FORM CODE 1 - WITH VARIABLES](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/cypress/e2e/Fill_Form_1_with_variables_from_cypress.config.json_.cy.js)
+   [CYPRESS CONFIG.JS WITH USED VARIABLES](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/cypress.config.js)
+  
+  [MULTI-STEP FORM CODE 2 - WITH FIXTURE FOR 1 USER](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/cypress/e2e/Fill_Form_2_with_fixture_file.cy.js)
+  [FIXTURE FILE FOR 1 USER](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/cypress/fixtures/Fill_Form_DATA_1_USER.json)
+  
+  [MULTI-STEP FORM CODE 3- WITH FIXTURE AND EACH FOR MORE USER](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/cypress/e2e/Fill_Form_3_with_fixture_file_and_each.cy.js)
+  [FIXTURE FILE FOR 1 USER](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/cypress/fixtures/Fill_Form_DATA_MORE_USERS.json)
+
+  RUNNING TESTS THROUGH CHROME TEST RUNNER:
+  [FILLING THE FORM RUNNNING TEST part 1](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/cypress%20test%20runner%20through%20chrome337.png)
+  [FILLING THE FORM RUNNNING TEST part 2](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/cypress%20test%20runner%20through%20chrome337.png)
 ## Goals of the Project
 
 - Demonstrate basic Cypress end-to-end testing capabilities.
 - Showcase how to structure and write tests for a multi-step form.
 - Provide a clear and detailed example of how to implement and verify user stories through automated tests.
 
-## Running Tests with GitHub Actions
+## Running Tests with GitLAB CI
 
-This project is configured to run Cypress tests automatically using GitHub Actions. The workflow file can be found at `.github/workflows/cypress-tests.yml`.
+[This project is configured to run Cypress tests automatically using GitHub Actions. The workflow file can be found at](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/.gitlab-ci.yml)
 
 ### Running Tests Locally
 
