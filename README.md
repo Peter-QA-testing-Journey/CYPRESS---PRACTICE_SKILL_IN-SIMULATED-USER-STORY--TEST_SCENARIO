@@ -37,40 +37,15 @@ I concentrate specifically on the functionality of the multi-step form and its e
   RUNNING TESTS THROUGH CHROME TEST RUNNER:
   [FILLING THE FORM RUNNNING TEST part 1](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/cypress%20test%20runner%20through%20chrome337.png)
   [FILLING THE FORM RUNNNING TEST part 2](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/cypress%20test%20runner%20through%20chrome337.png)
+
+  -TEST SCENARIO CAN BE EXECUTED BY RUNNING THROUGH CHROME BROWSER CYPRESS TEST RUNNER
+   OR THROUGH GITHUB ACTIONS/PIPELINES AS WAS MENTIONED ABOVE.
 ## Goals of the Project
 
 - Demonstrate basic Cypress end-to-end testing capabilities.
 - Showcase how to structure and write tests for a multi-step form.
-- Provide a clear and detailed example of how to implement and verify user stories through automated tests.
+- Self-learning of CI/CD process - pipelines.
 
-## Running Tests with GitLAB CI
 
-(https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/.gitlab-ci.yml)
 
-### Running Tests Locally
 
-1. Clone the repository to your local machine:
-
-    ```bash
-    git clone <repository_url>
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd project-root
-    ```
-
-3. Install the necessary dependencies:
-
-    ```bash
-    npm install
-    ```
-
-4. Open Cypress test runner:
-
-    ```bash
-    npx cypress open
-    ```
-
-5. In the Cypress test runner, click on the `multi-step-form.spec.js` to run the test.
