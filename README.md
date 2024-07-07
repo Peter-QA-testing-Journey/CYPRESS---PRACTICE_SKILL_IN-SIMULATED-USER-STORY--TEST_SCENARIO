@@ -1,6 +1,6 @@
 ![GitHub Actions -PIPELINE](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/workflows/Cypress%20Tests/badge.svg)
-[RESULTS FROM PIPELINE GITHUB](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/actions/runs/9828513956/job/27132504324)
-
+[RESULTS FROM PIPELINE GITHUB/This project is configured to run Cypress tests automatically using GitHub Actions.](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/actions/runs/9828513956/job/27132504324)
+[]
 
 
 # Project Overview
@@ -45,7 +45,7 @@ I concentrate specifically on the functionality of the multi-step form and its e
 
 ## Running Tests with GitLAB CI
 
-[This project is configured to run Cypress tests automatically using GitHub Actions. The workflow file can be found at](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/.gitlab-ci.yml)
+(https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/blob/main/.gitlab-ci.yml)
 
 ### Running Tests Locally
 
