@@ -4,7 +4,7 @@
 # Project Overview
 
 This project demonstrates the testing of multi-step form using CYPRESS FOR END2END TESTING.
-The focus is on verifying the functionality of filling out and submitting the form. 
+The focus is on verifying the functionality of filling out and submitting the form and CI/CD results. 
 Although the project probably includes more user stories IN REAL LIFE,
 I have concentrated specifically on the ONE SIMULATED CHOSEN USER STORY WITH functionality of the multi-step form and its end-to-end testing.
 I have used training website for TESTING, in general.
