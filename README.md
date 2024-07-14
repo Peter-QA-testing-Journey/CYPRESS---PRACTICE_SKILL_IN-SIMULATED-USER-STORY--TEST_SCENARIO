@@ -1,8 +1,33 @@
 ![GitHub Actions -PIPELINE](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/workflows/Cypress%20Tests/badge.svg)
 [RESULTS FROM PIPELINE GITHUB/This project is configured to run Cypress tests automatically using GitHub Actions.](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/actions/runs/9828513956/job/27132504324)
 
+# RUN AND ISNTALLATION
 
-Running Locally
+Set up the Node.js environment:
+
+yaml
+Copy code
+- name: Set up Node.js
+  uses: actions/setup-node@v2
+  with:
+    node-version: '16'
+Install project dependencies and Cypress:
+
+yaml
+Copy code
+- name: Install dependencies
+  run: npm ci
+
+- name: Install Cypress
+  run: npx cypress install
+Run Cypress tests:
+
+yaml
+Copy code
+- name: Run Cypress tests
+  run: npx cypress run -b chrome
+  
+# RUNNING LOCALLY
 [Clone the repository](https://github.com/Peter-QA-testing-Journey/CYPRESS---PRACTICE_SKILL_IN-SIMULATED-USER-STORY--TEST_SCENARIO.git)
 
 Open Cypress:
