@@ -3,48 +3,43 @@
 
 # RUN AND ISNTALLATION
 
-Set up the Node.js environment:
+## Set up the Node.js environment:
 
-yaml
-Copy code
-- name: Set up Node.js
-  uses: actions/setup-node@v2
-  with:
-    node-version: '16'
-Install project dependencies and Cypress:
 
-yaml
-Copy code
-- name: Install dependencies
-  run: npm ci
+## Set up Node.js
+node-version: '16'
 
-- name: Install Cypress
-  run: npx cypress install
-Run Cypress tests:
 
-yaml
-Copy code
-- name: Run Cypress tests
-  run: npx cypress run -b chrome
+## Install project dependencies and Cypress:
+run: npm ci
+
+## Install Cypress
+run: npx cypress install
+
+
+## Run Cypress tests:
+npx cypress run -b chrome
+
   
 # RUNNING LOCALLY
 [Clone the repository](https://github.com/Peter-QA-testing-Journey/CYPRESS---PRACTICE_SKILL_IN-SIMULATED-USER-STORY--TEST_SCENARIO.git)
 
-Open Cypress:
+## Open Cypress:
 
 npx cypress open
 
-Run the tests:
+## Run the tests:
 
 In the Cypress Test Runner that opens, click on the test file you want to run.
 Or headlessly with CMD -npm run test (from directory Project)
+
+
+
 # Project Overview
 
-This project demonstrates the testing of multi-step form using CYPRESS FOR END2END TESTING.
-The focus is on verifying the functionality of filling out and submitting the form and CI/CD results. 
-Although the project probably includes more user stories IN REAL LIFE,
-I have concentrated specifically on the ONE SIMULATED CHOSEN USER STORY WITH functionality of the multi-step form and its end-to-end testing.
-I have used training website for TESTING, in general.
+This project demonstrates Cypress end-to-end testing for a multi-step form. The focus is on verifying form functionality and CI/CD results. 
+Though the project likely includes more user stories, I have concentrated on a single simulated user story for testing the multi-step form. 
+A training website was used for the tests.
 
 ## User Story
 
