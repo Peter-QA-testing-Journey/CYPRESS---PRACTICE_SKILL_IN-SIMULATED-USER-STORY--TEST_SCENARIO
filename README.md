@@ -36,7 +36,7 @@ Or headlessly with CMD -npm run test (from directory Project)
 
 
 
-# Project Overview
+# PROJECT OVERVIEW
 
 This project demonstrates Cypress end-to-end testing for a multi-step form. The focus is on verifying form functionality and CI/CD results. 
 Though the project likely includes more user stories, I have concentrated on a single simulated user story for testing the multi-step form. 
@@ -73,7 +73,7 @@ A training website was used for the tests.
 - TEST SCENARIO CAN BE EXECUTED BY RUNNING THROUGH CHROME BROWSER CYPRESS TEST RUNNER
   OR THROUGH GITHUB ACTIONS/PIPELINES AS WAS MENTIONED ABOVE.
 
-## Goals of the Project
+# GOALS OF PROJECT
 
 - Demonstrate basic Cypress end-to-end testing capabilities.
 - Showcase how to structure and write tests for a multi-step form.
