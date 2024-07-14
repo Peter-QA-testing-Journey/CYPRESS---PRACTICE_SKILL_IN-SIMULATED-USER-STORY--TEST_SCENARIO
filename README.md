@@ -3,7 +3,6 @@
 
 # RUN AND ISNTALLATION
 
-## Set up the Node.js environment:
 
 
 ## Set up Node.js
