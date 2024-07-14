@@ -3,9 +3,7 @@
 
 
 Running Locally
-Clone the repository:
-
-git clone Cloning Repository
+[Clone the repository](https://github.com/Peter-QA-testing-Journey/CYPRESS---PRACTICE_SKILL_IN-SIMULATED-USER-STORY--TEST_SCENARIO.git)
 
 Open Cypress:
 
