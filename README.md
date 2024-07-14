@@ -1,6 +1,20 @@
 ![GitHub Actions -PIPELINE](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/workflows/Cypress%20Tests/badge.svg)
 [RESULTS FROM PIPELINE GITHUB/This project is configured to run Cypress tests automatically using GitHub Actions.](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/actions/runs/9828513956/job/27132504324)
 
+
+Running Locally
+Clone the repository:
+
+git clone Cloning Repository
+
+Open Cypress:
+
+npx cypress open
+
+Run the tests:
+
+In the Cypress Test Runner that opens, click on the test file you want to run.
+Or headlessly with CMD -npm run test (from directory Project)
 # Project Overview
 
 This project demonstrates the testing of multi-step form using CYPRESS FOR END2END TESTING.
