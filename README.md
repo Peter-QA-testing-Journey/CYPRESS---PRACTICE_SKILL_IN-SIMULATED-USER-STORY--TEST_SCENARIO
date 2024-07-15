@@ -1,4 +1,4 @@
-![GitHub Actions -PIPELINE](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/workflows/Cypress%20Tests/badge.svg)
+
 
 [![Cypress Tests](https://github.com/Peter-QA-testing-Journey/CYPRESS---PRACTICE_SKILL_IN-SIMULATED-USER-STORY--TEST_SCENARIO/workflows/Cypress%20Tests/badge.svg)](https://github.com/Peter-QA-testing-Journey/CYPRESS---PRACTICE_SKILL_IN-SIMULATED-USER-STORY--TEST_SCENARIO/actions?query=workflow%3ACypress+Tests)
 
