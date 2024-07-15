@@ -1,4 +1,5 @@
 ![GitHub Actions -PIPELINE](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/workflows/Cypress%20Tests/badge.svg)
+
 [RESULTS FROM PIPELINE GITHUB/This project is configured to run Cypress tests automatically using GitHub Actions.](https://github.com/Peter-QA-testing-Journey/PROJECT--PRACTICE_SKILL_IN-CYPRESS/actions/runs/9828513956/job/27132504324)
 
 # RUN AND INSTALLATION
